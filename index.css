@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Inter';
+    color: #353535;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;  
+    background-color: #F4F4F4;
+}
+
+h1 {
+   color: #FFFFFF;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.03em;
+}
+
+h2 {
+    color: #5A537B;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+input {
+  background: #6943FF;
+  width: 120px;         /* use width, not min-width */
+  height: 60px;         /* use height, not min-height */
+  border: 2px solid #B295FF;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 32px;      /* smaller so it fits nicely */
+  line-height: 1.2;     /* match line-height to font-size */
+  text-align: center;
+}
+
+button {
+    background: #FFFFFF;
+    border: #FFFFFF;
+    width: 117px;
+    height: 42px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    font-family: Inter;
+}
+
+.container { 
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    height: 108px;
+    width: 500px;
+    display: grid;            
+    justify-content: center;   
+    align-items: center; 
+}
+
+.header-box {
+    background-color: #6943FF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main-box {
+    background-color: #F4F4F4;
+}
